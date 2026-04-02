@@ -75,8 +75,7 @@ with col3:
 
 # -------- RESET BUTTON --------
 if st.button("Reset"):
-    st.session_state.question = ""
-    st.session_state.answer = ""
+    st.session_state.clear()
     st.rerun()
 
 # ---------------- OUTPUT ----------------
